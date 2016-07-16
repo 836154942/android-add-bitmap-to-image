@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.spc.drawimage.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/create_iamge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/im_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.example.spc.drawimage.view.StickerView
+        android:id="@+id/id_stickerew"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout><Button
+android:id="@+id/add_image"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+android:text="addImage" />
+
+
+<Button
+android:id="@+id/add_text"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+android:layout_alignParentRight="true"
+android:text="addText" />
+
+
+<Button
+android:id="@+id/btn_save"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentRight="true"
+android:text="save" /></RelativeLayout>
